@@ -1,0 +1,1122 @@
+{
+    "nomeTimePrincipal": "FORTALEZA",
+    "partidas": [
+        {
+            "id": 202601,
+            "competicao": "cearense",
+            "fase": "FASE DE GRUPOS",
+            "data": "11/01",
+            "estadio": "Presidente Vargas",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FERROVIÁRIO",
+            "escudoCasa": "img/ferroviarioCE.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202602,
+            "competicao": "cearense",
+            "fase": "FASE DE GRUPOS",
+            "data": "15/01",
+            "estadio": "Presidente Vargas",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 4,
+            "timeFora": "QUIXADÁ",
+            "escudoFora": "img/quixadaCE.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Tomás Pochettino 84', 30'",
+                "Kayke 69'",
+                "(GC) - Samuel 4'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202603,
+            "competicao": "cearense",
+            "fase": "FASE DE GRUPOS",
+            "data": "18/01",
+            "estadio": "Presidente Vargas",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "MARACANÃ",
+            "escudoFora": "img/maracanaCE.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "(GC) - Guilherme 25'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202604,
+            "competicao": "cearense",
+            "fase": "FASE DE GRUPOS",
+            "data": "22/01",
+            "estadio": "Estádio Domingão",
+            "cidade": "Horizonte, CE",
+            "timeCasa": "HORIZONTE",
+            "escudoCasa": "img/horizonteCE.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "Rodrigo Santos 38'"
+            ]
+        },
+        {
+            "id": 202605,
+            "competicao": "cearense",
+            "fase": "FASE DE GRUPOS",
+            "data": "26/01",
+            "estadio": "Presidente Vargas",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "FLORESTA",
+            "escudoFora": "img/florestaCE.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Adam Bareiro 25' (P)"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202606,
+            "competicao": "cearense",
+            "fase": "FASE DE GRUPOS",
+            "data": "31/01",
+            "estadio": "Presidente Vargas",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "IGUATU",
+            "escudoFora": "img/iguatuCE.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Adam Bareiro 32' (P)"
+            ],
+            "autoresGolsFora": [
+                "Diguinho 7'"
+            ]
+        },
+        {
+            "id": 202607,
+            "competicao": "cearense",
+            "fase": "FASE DE GRUPOS",
+            "data": "08/02",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "CEARÁ",
+            "escudoCasa": "img/ceara.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202608,
+            "competicao": "cearense",
+            "fase": "SEMIFINAL",
+            "data": "14/02",
+            "estadio": "Presidente Vargas",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FERROVIÁRIO",
+            "escudoCasa": "img/ferroviarioCE.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "Vitinho 58'",
+                "Adam Bareiro 13'"
+            ]
+        },
+        {
+            "id": 202609,
+            "competicao": "cearense",
+            "fase": "SEMIFINAL",
+            "data": "21/02",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 2,
+            "timeFora": "FERROVIÁRIO",
+            "escudoFora": "img/ferroviarioCE.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Tomás Pochettino 57'",
+                "Lucas Sasha 8'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202610,
+            "competicao": "brasil",
+            "fase": "SEGUNDA FASE",
+            "data": "24/02",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 4,
+            "timeFora": "MAGUARY",
+            "escudoFora": "img/maguaryPE.png",
+            "golsFora": 3,
+            "autoresGolsCasa": [
+                "Lucca Prior 90' +6",
+                "Rodrigo Santos 84'",
+                "Tomás Cardona 45' +4",
+                "Luiz Fernando 16'"
+            ],
+            "autoresGolsFora": [
+                "E. Ribeiro 65'",
+                "V. Kanu 45' +6",
+                "J. Cesar 42'"
+            ]
+        },
+        {
+            "id": 202611,
+            "competicao": "cearense",
+            "fase": "FINAL",
+            "data": "01/03",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "CEARÁ",
+            "escudoFora": "img/ceara.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Lucas Emanoel 86'"
+            ],
+            "autoresGolsFora": [
+                "L. Holanda 90' +1"
+            ]
+        },
+        {
+            "id": 202612,
+            "competicao": "cearense",
+            "fase": "FINAL",
+            "data": "08/03",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "CEARÁ",
+            "escudoCasa": "img/ceara.png",
+            "golsCasa": 1,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "L. Otávio 29'"
+            ],
+            "autoresGolsFora": [
+                "Luiz Fernando 56'"
+            ],
+            "decisaoPenaltis": {
+                "golsCasa": 4,
+                "golsFora": 5,
+                "penaltisCasa": [
+                    "o",
+                    "o",
+                    "x",
+                    "o",
+                    "o"
+                ],
+                "penaltisFora": [
+                    "o",
+                    "o",
+                    "o",
+                    "o",
+                    "o"
+                ]
+            }
+        },
+        {
+            "id": 202613,
+            "competicao": "brasil",
+            "fase": "TERCEIRA FASE",
+            "data": "11/03",
+            "estadio": "Arena Amazônia",
+            "cidade": "Manaus, AM",
+            "timeCasa": "MANAUARA",
+            "escudoCasa": "img/manauaraAM.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "Mailton 90'+8 (P)"
+            ]
+        },
+        {
+            "id": 202614,
+            "competicao": "brasil",
+            "fase": "QUARTA FASE",
+            "data": "17/03",
+            "estadio": "Estádio Luso Brasileiro",
+            "cidade": "Rio de Janeiro, RJ",
+            "timeCasa": "NOVA IGUAÇU",
+            "escudoCasa": "img/novaIguacuRJ.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "Vitinho 45'+ 6"
+            ]
+        },
+        {
+            "id": 202615,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 1",
+            "data": "21/03",
+            "estadio": "Estádio Santa Cruz",
+            "cidade": "Ribeirão Preto, SP",
+            "timeCasa": "BOTAFOGO-SP",
+            "escudoCasa": "img/botafogoSP.png",
+            "golsCasa": 4,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "E. Morelli 52', 38'",
+                "Vilar 45' +4",
+                "Hygor 34'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202616,
+            "competicao": "nordeste",
+            "fase": "FASE DE GRUPOS",
+            "data": "24/03",
+            "estadio": "Presidente Vargas",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FERROVIÁRIO",
+            "escudoCasa": "img/ferroviarioCE.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "(GC) - Pedrinho 2'"
+            ]
+        },
+        {
+            "id": 202617,
+            "competicao": "nordeste",
+            "fase": "FASE DE GRUPOS",
+            "data": "28/03",
+            "estadio": "Presidente Vargas",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 2,
+            "timeFora": "IMPERATRIZ",
+            "escudoFora": "img/imperatrizMA.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Welliton 83'",
+                "Lucas Emanoel 44'"
+            ],
+            "autoresGolsFora": [
+                "A. C. d. N. Bernardino 86'"
+            ]
+        },
+        {
+            "id": 202618,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 2",
+            "data": "31/03",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 0,
+            "timeFora": "CUIABÁ",
+            "escudoFora": "img/cuiabaMT.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202619,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 3",
+            "data": "04/04",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 2,
+            "timeFora": "JUVENTUDE",
+            "escudoFora": "img/juventudeRS.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "(GC) - L. M. Gonçalves 45'+1",
+                "Mailton 18'(P)"
+            ],
+            "autoresGolsFora": [
+                "Alan Kardec 50'"
+            ]
+        },
+        {
+            "id": 202620,
+            "competicao": "nordeste",
+            "fase": "FASE DE GRUPOS",
+            "data": "08/04",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "CEARÁ",
+            "escudoCasa": "img/ceara.png",
+            "golsCasa": 2,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "A. Silva 90'+7",
+                "Fernando 72'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202621,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 4",
+            "data": "12/04",
+            "estadio": "Estádio Primeiro de Maio",
+            "cidade": "São Bernardo do Campo, SP",
+            "timeCasa": "SÃO BERNARDO",
+            "escudoCasa": "img/saoBernardoSP.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "Juan Miritello 87'"
+            ]
+        },
+        {
+            "id": 202622,
+            "competicao": "nordeste",
+            "fase": "FASE DE GRUPOS",
+            "data": "16/04",
+            "estadio": "Almeidão",
+            "cidade": "João Pessoa, PB",
+            "timeCasa": "AMÉRICA-RN",
+            "escudoCasa": "img/americaRN.png",
+            "golsCasa": 1,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "C. Coppetti 82'(P)"
+            ],
+            "autoresGolsFora": [
+                "(GC) - Gustavo Ferreira 21'"
+            ]
+        },
+        {
+            "id": 202623,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 5",
+            "data": "19/04",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 3,
+            "timeFora": "CRICIÚMA",
+            "escudoFora": "img/criciumaSC.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [
+                "(GC) - B. Alves 77'",
+                "(GC) - R. R. Carvalho 29'",
+                "Luiz Fernando 8'"
+            ],
+            "autoresGolsFora": [
+                "B. Alves 50'",
+                "F. Mateus 13'"
+            ]
+        },
+        {
+            "id": 202624,
+            "competicao": "brasil",
+            "fase": "QUINTA FASE",
+            "data": "22/04",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 2,
+            "timeFora": "CRB",
+            "escudoFora": "img/crbAL.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Juan Miritello 56'",
+                "Mailton 44'"
+            ],
+            "autoresGolsFora": [
+                "Mikael 32'"
+            ]
+        },
+        {
+            "id": 202625,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 6",
+            "data": "26/04",
+            "estadio": "Estádio Germano Kruger",
+            "cidade": "Ponta Grossa, PR",
+            "timeCasa": "OPERÁRIO-PR",
+            "escudoCasa": "img/operarioPR.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202626,
+            "competicao": "nordeste",
+            "fase": "FASE DE GRUPOS",
+            "data": "29/04",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 2,
+            "timeFora": "SPORT",
+            "escudoFora": "img/sportPE.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Vitinho 90'+8",
+                "Juan Miritello 90'+3"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202627,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 7",
+            "data": "02/05",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 4,
+            "timeFora": "GOIÁS",
+            "escudoFora": "img/goiasGO.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Juan Miritello 90'+1, 78'",
+                "Vitinho 61', 54'"
+            ],
+            "autoresGolsFora": [
+                "Gegê 24'"
+            ]
+        },
+        {
+            "id": 202628,
+            "competicao": "nordeste",
+            "fase": "QUARTAS DE FINAL",
+            "data": "07/05",
+            "estadio": "Estádio Lourival Baptista",
+            "cidade": "Aracaju, SE",
+            "timeCasa": "CONFIANÇA",
+            "escudoCasa": "img/confiancaSE.png",
+            "golsCasa": 1,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [
+                "Ícaro 89'(P)"
+            ],
+            "autoresGolsFora": [
+                "Juan Miritello 42'",
+                "Vitinho 7'"
+            ]
+        },
+        {
+            "id": 202629,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 8",
+            "data": "10/05",
+            "estadio": "Estádio da Ressacada",
+            "cidade": "Florianópolis, SC",
+            "timeCasa": "AVAÍ",
+            "escudoCasa": "img/avaiSC.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202630,
+            "competicao": "brasil",
+            "fase": "QUINTA FASE",
+            "data": "14/05",
+            "estadio": "Estádio Rei Pelé",
+            "cidade": "Maceió, AL",
+            "timeCasa": "CRB",
+            "escudoCasa": "img/crbAL.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202631,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 9",
+            "data": "17/05",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "CEARÁ",
+            "escudoCasa": "img/ceara.png",
+            "golsCasa": 2,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Júlio César 68'",
+                "Melk 58'"
+            ],
+            "autoresGolsFora": [
+                "Mailton 28'(P)"
+            ]
+        },
+        {
+            "id": 202632,
+            "competicao": "nordeste",
+            "fase": "SEMIFINAL",
+            "data": "20/05",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "SPORT",
+            "escudoFora": "img/sportPE.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [
+                "Luiz Fernando 73'"
+            ],
+            "autoresGolsFora": [
+                "Perotti 46', 10'"
+            ]
+        },
+        {
+            "id": 202633,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 10",
+            "data": "23/05",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 3,
+            "timeFora": "LONDRINA",
+            "escudoFora": "img/londrinaPR.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Lucca Prior 90'+9",
+                "Luiz Fernando 53'(P)",
+                "Vitinho 36'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202634,
+            "competicao": "nordeste",
+            "fase": "SEMIFINAL",
+            "data": "27/05",
+            "estadio": "Ilha do Retiro",
+            "cidade": "Recife, PE",
+            "timeCasa": "SPORT",
+            "escudoCasa": "img/sportPE.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "Vitinho 57'",
+                "Juan Miritello 36'"
+            ]
+        },
+        {
+            "id": 202635,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 11",
+            "data": "30/05",
+            "estadio": "Estádio Joaquim Portugal",
+            "cidade": "São João del Rei, MG",
+            "timeCasa": "ATHLETIC",
+            "escudoCasa": "img/athleticMG.png",
+            "golsCasa": 1,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Ian Luccas 55'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202636,
+            "competicao": "nordeste",
+            "fase": "FINAL",
+            "data": "02/06",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "VITÓRIA",
+            "escudoFora": "img/vitoriaBA.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [
+                "Vitinho 55'"
+            ],
+            "autoresGolsFora": [
+                "D. Tarzia 90'+3",
+                "Renato Kayzer 84'(P)"
+            ]
+        },
+        {
+            "id": 202637,
+            "competicao": "nordeste",
+            "fase": "FINAL",
+            "data": "06/06",
+            "estadio": "Barradão",
+            "cidade": "Salvador, BA",
+            "timeCasa": "VITÓRIA",
+            "escudoCasa": "img/vitoriaBA.png",
+            "golsCasa": 2,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Renato Kayzer 90'",
+                "Emmanuel Martínez 72'"
+            ],
+            "autoresGolsFora": [
+                "Luiz Fernando 27'"
+            ]
+        },
+        {
+            "id": 202638,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 12",
+            "data": "09/06",
+            "estadio": "Estádio dos Aflitos",
+            "cidade": "Recife, PE",
+            "timeCasa": "NÁUTICO",
+            "escudoCasa": "img/nauticoPE.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "(GC) - Mateus Silva 44'"
+            ]
+        },
+        {
+            "id": 202639,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 13",
+            "data": "16/06",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 0,
+            "timeFora": "AMÉRICA-MG",
+            "escudoFora": "img/americaMG.png",
+            "golsFora": 3,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "W. Bigode 90'+10(P)",
+                "G. Barros 44'",
+                "Matías Segovia 30'"
+            ]
+        },
+        {
+            "id": 202640,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 14",
+            "data": "21/06",
+            "estadio": "Estádio Rei Pelé",
+            "cidade": "Maceió, AL",
+            "timeCasa": "CRB",
+            "escudoCasa": "img/crbAL.png",
+            "golsCasa": 1,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Mikael 6'"
+            ],
+            "autoresGolsFora": [
+                "Juan Miritello 81'"
+            ]
+        },
+        {
+            "id": 202641,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 15",
+            "data": "28/06",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 2,
+            "timeFora": "SPORT",
+            "escudoFora": "img/sportPE.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Welliton 90'+5",
+                "Rodrigo Santos 28'"
+            ],
+            "autoresGolsFora": [
+                "Perotti 69'"
+            ]
+        },
+        {
+            "id": 202642,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 16",
+            "data": "02/07",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 2,
+            "timeFora": "PONTE PRETA",
+            "escudoFora": "img/pontepretaSP.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Mailton 84'",
+                "Juan Miritello 60'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202643,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 17",
+            "data": "12/07",
+            "estadio": "Estádio Antônio Accioly",
+            "cidade": "Goiânia, GO",
+            "timeCasa": "ATLÉTICO-GO",
+            "escudoCasa": "img/atleticoGO.png",
+            "golsCasa": 1,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Klebert 42'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202644,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 18",
+            "data": "17/07",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "NOVORIZONTINO",
+            "escudoFora": "img/novorizontinoSP.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Vitinho 3'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202645,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 19",
+            "data": "21/07",
+            "estadio": "Estádio Onésio Brasileiro Alvarenga",
+            "cidade": "Goiânia, GO",
+            "timeCasa": "VILA NOVA",
+            "escudoCasa": "img/vilanovaGO.png",
+            "golsCasa": 2,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "J. Vieira 32'",
+                "D. Mendes 14'"
+            ],
+            "autoresGolsFora": [
+                "Pedro Henrique 78'"
+            ]
+        },
+        {
+            "id": 202646,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 20",
+            "data": "28/07",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "BOTAFOGO-SP",
+            "escudoFora": "img/botafogoSP.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Ronald 57'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202647,
+            "competicao": "brasil",
+            "fase": "OITAVAS DE FINAL",
+            "data": "02/08",
+            "estadio": "Nubank Parque",
+            "cidade": "São Paulo, SP",
+            "timeCasa": "PALMEIRAS",
+            "escudoCasa": "img/palmeirasSP.png",
+            "golsCasa": 3,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "José Manuel López 85'",
+                "Jhon Arias 64'",
+                "Mauricio 48'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202648,
+            "competicao": "brasil",
+            "fase": "OITAVAS DE FINAL",
+            "data": "05/08",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 3,
+            "timeFora": "PALMEIRAS",
+            "escudoFora": "img/palmeirasSP.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [
+                "Lucas Emanoel 88'",
+                "Rodriguinho 44'",
+                "Juan Miritello 34'"
+            ],
+            "autoresGolsFora": [
+                "Murilo 61'",
+                "José Manuel López 41'"
+            ]
+        },
+        {
+            "id": 202649,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 21",
+            "data": "09/08",
+            "estadio": "Arena Pantanal",
+            "cidade": "Cuiabá, MT",
+            "timeCasa": "CUIABÁ",
+            "escudoCasa": "img/cuiabaMT.png",
+            "golsCasa": 1,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Jean Dias 9'"
+            ],
+            "autoresGolsFora": [
+                "Mailton 54' (P)"
+            ]
+        },
+        {
+            "id": 202650,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 22",
+            "data": "15/08",
+            "estadio": "Estádio Alfredo Jaconi",
+            "cidade": "Caxias do Sul, RS",
+            "timeCasa": "JUVENTUDE",
+            "escudoCasa": "img/juventudeRS.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202651,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 23",
+            "data": "19/08",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "SÃO BERNARDO",
+            "escudoFora": "img/saoBernardoSP.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Lucas Sasha 32'"
+            ],
+            "autoresGolsFora": [
+                "Pedrinho 43'"
+            ]
+        },
+        {
+            "id": 202652,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 24",
+            "data": "23/08",
+            "estadio": "Estádio Heriberto Hülse",
+            "cidade": "Criciúma, SC",
+            "timeCasa": "CRICIÚMA",
+            "escudoCasa": "img/criciumaSC.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "Paulo Baya 87'",
+                "Pedro Henrique 43'"
+            ]
+        },
+        {
+            "id": 202653,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 25",
+            "data": "31/08",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "OPERÁRIO-PR",
+            "escudoFora": "img/operarioPR.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Mailton 30'"
+            ],
+            "autoresGolsFora": [
+                "Ángel Torres 33'"
+            ]
+        },
+        {
+            "id": 202654,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 26",
+            "data": "05/09",
+            "estadio": "Estádio da Serrinha",
+            "cidade": "Goiânia, GO",
+            "timeCasa": "GOIÁS",
+            "escudoCasa": "img/goiasGO.png",
+            "golsCasa": 0,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [],
+            "autoresGolsFora": [
+                "Vitinho 45'"
+            ]
+        },
+        {
+            "id": 202655,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 27",
+            "data": "09/09",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "AVAÍ",
+            "escudoFora": "img/avaiSC.png",
+            "golsFora": 0,
+            "autoresGolsCasa": [
+                "Mailton 66'"
+            ],
+            "autoresGolsFora": []
+        },
+        {
+            "id": 202656,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 28",
+            "data": "13/09",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 1,
+            "timeFora": "CEARÁ",
+            "escudoFora": "img/ceara.png",
+            "golsFora": 1,
+            "autoresGolsCasa": [
+                "Vitinho 30'"
+            ],
+            "autoresGolsFora": [
+                "Melk 87'"
+            ]
+        },
+        {
+            "id": 202657,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 29",
+            "data": "20/09",
+            "estadio": "Estadio Vitorino Goncalves Dias",
+            "cidade": "Londrina, PR",
+            "timeCasa": "LONDRINA",
+            "escudoCasa": "img/londrinaPR.png",
+            "golsCasa": 1,
+            "timeFora": "FORTALEZA",
+            "escudoFora": "img/fortaleza.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [
+                "Igor Bahia 74'"
+            ],
+            "autoresGolsFora": [
+                "Neris 88'",
+                "(GC) - Heron 34'"
+            ]
+        }
+    ]
+}

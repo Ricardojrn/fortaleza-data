@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Lora:ital,wght@0,500;0,600;1,400&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Lora:ital,wght@0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================================
+   CORES (VARIÁVEIS CSS)
+========================================= */
+:root {
+  --background-color: #F8FAFC;/*Cor de fundo da pagina*/
+  --font-texto: #1d3877;
+
+  --verde-vitoria: #5dd889; /*cores dos status das partidas*/
+  --vermelho-derrota: #ff5252;
+  --cinza-empate: #9e9e9e;
+
+  --cor-comp-cearense: #ceb777; /* Cor padrão campeonato cearense*/
+  --cor-comp-nordeste: #72a581; /* Cor padrão copa nordeste */
+  --cor-comp-brasil: #239443; /* Cor padrão copa do brasil */
+  --cor-comp-libertadores: #2e5999; /* Cor padrão copa libertadores */
+  --cor-comp-sulamericana: #7f97bb;
+  --cor-comp-brasileiro-A: #409df5; /* Cor padrão campeonato brasileiro serie A */
+  --cor-comp-brasileiro-B: #8adef8; /* Cor padrão campeonato brasileiro serie B */
+}
+
+.comp-nordeste    { --cor-campeonato: var(--cor-comp-nordeste); }
+.comp-cearense    { --cor-campeonato: var(--cor-comp-cearense); }
+.comp-brasil      { --cor-campeonato: var(--cor-comp-brasil); }
+.comp-libertadores{ --cor-campeonato: var(--cor-comp-libertadores); }
+.comp-sulamericana{ --cor-campeonato: var(--cor-comp-sulamericana);}
+.comp-brasileiro-A  { --cor-campeonato: var(--cor-comp-brasileiro-A); }
+.comp-brasileiro-B  { --cor-campeonato: var(--cor-comp-brasileiro-B); }
+
+body {
+  background-color: var(--background-color);
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-wrapper {
+  position: relative;
+  background-color: var(--background-color);
+  width: 100%;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* =========================================
+   FILTRO DE TEMPORADAS (ANOS)
+========================================= */
+.competicoes-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.filtros-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.filtro-ano-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.filtro-ano-container label {
+  font-family: 'montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--font-texto);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.filtro-ano-container select {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--font-texto);
+  background-color: var(--background-color);
+  border: 2px solid var(--font-texto);
+  border-radius: 4px;
+  padding: 6px 14px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.filtro-ano-container select:hover {
+  background-color: var(--font-texto);
+  color: var(--background-color);
+}
+
+.filtro-ano-container select:focus {
+  border-color: #e4b020; /* Destaque dourado ao focar */
+  box-shadow: 0 0 0 2px rgba(228, 176, 32, 0.25);
+}
+
+.filtro-adversario-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filtro-adversario-container label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--font-texto);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.filtro-adversario-container select {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--font-texto);
+  background-color: var(--background-color);
+  border: 2px solid var(--font-texto);
+  border-radius: 4px;
+  padding: 6px 14px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+
+.filtro-adversario-container select:hover {
+  background-color: var(--font-texto);
+  color: var(--background-color);
+}
+
+.filtro-adversario-container select:focus {
+  border-color: #e4b020;
+  box-shadow: 0 0 0 2px rgba(228, 176, 32, 0.25);
+}
+
+.filtro-ano-container select,
+.filtro-adversario-container select {
+  min-width: 125px;
+  height: 36px;
+}
+
+
+/* =========================================
+   BARRA DE COMPETIÇÕES NO TOPO
+========================================= */
+.competicoes-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+}
+
+.comp-box {
+  flex: 1;
+  min-height: 100px;
+  min-width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.comp-box.selecionada {
+  box-shadow: 0 0 0 3px #bad136;
+  transform: translateY(-3px);
+}
+
+.comp-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.30);
+}
+
+.comp-box.cearense    { background-color: var(--cor-comp-cearense); }
+.comp-box.nordeste    { background-color: var(--cor-comp-nordeste); }
+.comp-box.brasil      { background-color: var(--cor-comp-brasil); }
+.comp-box.libertadores  { background-color: var(--cor-comp-libertadores); }
+.comp-box.sulamericana  {background-color: var(--cor-comp-sulamericana);}
+.comp-box.brasileiro-A  { background-color: var(--cor-comp-brasileiro-A); }
+.comp-box.brasileiro-B { background-color: var(--cor-comp-brasileiro-B);}
+
+.comp-text {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  font-size: 10px;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.comp-trophy {
+  max-width: 50px;
+  max-height: 70px;
+}
+
+/* =========================================
+   LISTA DE PARTIDAS
+========================================= */
+
+.partidas {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.matches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.match-card {
+  display: flex;
+  position: relative;
+  min-height: 90px;
+  max-width: 900px;
+  height: auto;
+}
+
+.btn-ordem {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--font-texto);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+
+  height: 32px;
+  width: 170px;
+
+  background-color: transparent;
+  border: 1px solid #b8c9df;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-ordem:hover {
+  background-color: var(--font-texto);
+  color: #ffffff;
+  border-color: var(--font-texto);
+}
+
+/* Borda de Status (Verde para vitória, cinza para empate e Vermelha para derrota) */
+.status-pill {
+  width: 14px;
+  background-color: var(--verde-vitoria);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+
+.status-pill.status-derrota {
+  background-color: var(--vermelho-derrota); /* Vermelho para derrota */
+}
+
+.status-pill.status-empate {
+  background-color: var(--cinza-empate); /* Cinza para empate */
+}
+
+/* Container do Jogo com a Moldura da Cor do Campeonato */
+.card-frame {
+  flex-grow: 1;
+  background-color: #ffffff;
+  border: 4px solid var(--cor-campeonato);
+  border-left: none; /* A data já faz o lado esquerdo */
+  display: flex;
+  position: relative;
+}
+
+/* Barra Superior com o texto FASE DE GRUPOS */
+.card-header-bar {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background-color: var(--cor-campeonato);
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 33%;
+}
+
+/* Bloco Lateral com a Data */
+.card-date-box {
+  background-color: var(--cor-campeonato);
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 16px; /* Desce para dar espaço à barra superior */
+  padding-top: 10px;
+  height: calc(100% - 16px); /* Ajusta a altura para preencher o restante do card */
+}
+
+.date-day {
+  border-bottom: 2px solid #ffffff;
+  width: 28px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.date-month {
+  padding-top: 5px;
+}
+
+/* Área de Conteúdo do Jogo */
+.card-content {
+  flex-grow: 1;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 160px 50px 1fr 50px; /* Venue | Escudo Casa | Confronto | Escudo Fora */
+  align-items: center;
+  padding: 0 15px;
+  gap: 10px;
+}
+
+/* Estádio e Cidade */
+.venue-box {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  padding-left: 10px;
+  width: 145px;
+  overflow: hidden;
+}
+
+.venue-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #2b568e;
+  letter-spacing: 2px;
+}
+
+.venue-city {
+  font-family: 'Lora', serif;
+  font-size: 11px;
+  color: #2b568e;
+  margin-top: 6px;
+}
+
+/* Confronto, Placar e Marcadores */
+.matchup-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-right: 0%;
+  position: relative;
+}
+
+.teams-and-scores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Lora', serif;
+  color: #2b568e;
+}
+
+.team-block {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.team-block.home {
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.team-block.away {
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.t-name {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.t-score {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.center-ball-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+/* Linhas azuis finas sob o placar */
+.lines-container {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-top: -2px;
+  gap: 15px;
+}
+
+.score-line {
+  flex: 1;
+  height: 1px;
+  background-color: #648bbd;
+}
+
+/* Autores dos Gols */
+.goals-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 2px;
+  font-family: 'Roboto', serif;
+  font-size: 10px;
+  color: #2b568e;
+}
+
+.goals-home {
+  flex: 1;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.goals-away {
+  flex: 1;
+  text-align: left;
+  padding-left: 15px;
+}
+/*gol contras */
+.gol-contra {
+    color: #9b2424;
+}
+/* area placar penalidades */
+.penaltis-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: var(--cor-campeonato);
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.pen-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+}
+
+.pen-label {
+    font-size: 8px;
+    color: #ffffff;
+}
+
+.pen-score {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.penaltis-cobrancas {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.pen-bolinha {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pen-gol {
+    background-color: #4ade80;
+}
+
+.pen-erro {
+    background-color: #ef4444;
+}
+
+/* 6. Escudos em Posições Estratégicas */
+.crest-casa,
+.crest-fora {
+  position: static; /* Remove o absolute fixo */
+  height: 55px;
+  max-width: 60px;
+  object-fit: contain;
+  margin: auto;
+}
+
+/* =========================================
+   ÁREA GERAL DE ESTATÍSTICAS
+========================================= */
+.stats-wrapper {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+  gap: 30px;
+  width: 100%;
+}
+
+.desempenho-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.secao-heading {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dbe4ef;
+}
+
+.secao-heading .heading-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #2b568e;
+  flex-shrink: 0;
+}
+
+.secao-heading .heading-texto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #2b568e;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.stats-overview-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  max-width: 780px;
+}
+
+/* --- 1. Círculos de Partidas --- */
+.matches-summary-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.total-matches-label {
+  font-family: 'Roboto', serif;
+  font-style: italic;
+  font-size: 20px;
+  color: #3b669e;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.circles-cluster {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.stat-circle {
+  width: var(--tamanho-circulo);
+  height: var(--tamanho-circulo);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(29, 56, 119, 0.12);
+}
+
+.stat-circle .label {
+  font-size: 8.5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: -2px;
+}
+
+.stat-circle .count {
+  font-family: 'Cinzel', serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.circle-vitorias {
+  background-color: #1b78cf;
+  z-index: 1;
+}
+
+.circle-empates {
+  background-color: #4e8ae9;
+  margin-left: -12px;
+  margin-top: 25px; /* Recuo para baixo como no mockup */
+  z-index: 3;
+}
+
+.circle-derrotas {
+  background-color: #80a8e9;
+  margin-right: -8px;
+  z-index: 2;
+}
+
+/* --- 2. Bloco Duplo de Gols --- */
+.goals-summary-col {
+  display: flex;
+  width: 360px; /* Largura fixa ideal para o trio de gols */
+  height: 95px;
+  box-shadow: 0 4px 10px rgba(29, 56, 119, 0.10);
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.goal-rectangle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px 14px 10px;
+  color: #ffffff;
+}
+
+.goal-marcados   { background-color: #5ea8ff; }
+.goal-sofridos { background-color: #ff5f5f; }
+.goal-saldo   { background-color: #78e68a; }
+
+.goal-header {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.goal-value {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* =========================================
+   GRÁFICO DE ARTILHARIA
+========================================= */
+.artilharia-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.artilharia-heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dbe4ef;
+}
+
+.heading-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #2b568e;
+}
+
+.heading-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #2b568e;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.artilharia-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+}
+
+.chart-row {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+}
+
+.artilheiro-principal .player-name {
+  font-weight: 700;
+  color: #1d3877;
+}
+
+.artilheiro-principal .chart-bar-fill {
+  background: linear-gradient(90deg, #1d3877, #5b9ee5);
+}
+
+.player-name {
+  width: 145px;
+  flex-shrink: 0;
+  text-align: right;
+  padding-right: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #234a7d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chart-bar-area {
+  flex-grow: 1;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  background-color: #e9eff7;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.chart-bar-fill {
+  background: linear-gradient(90deg, #244f86, #438edb);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.chart-axis {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lora', serif;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: #b73838;
+  padding: 0 4px;
+}
+
+.artilheiro-extra {
+  display: none;
+}
+
+#btn-artilharia {
+  display: none;
+  width: 100%;
+  align-self: center;
+  padding: 6px 22px;
+  border: 1px solid #b8c9df;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #2b568e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#btn-artilharia:hover {
+  background-color: #2b568e;
+  color: #ffffff;
+  border-color: #2b568e;
+}
+
+/* --- Separador de temporadas --- */
+.temporada-separador {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.temporada-separador::before,
+.temporada-separador::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #cbd5e1;
+}
+
+.temporada-separador span {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d3877;
+  white-space: nowrap;
+}

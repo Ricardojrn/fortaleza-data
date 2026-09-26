@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Partidas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="page-wrapper">
+
+    <div class="competicoes-wrapper">
+      <div class="filtros-container">
+
+        <div class="filtro-ano-container">
+          <label for="select-ano">Temporada:</label>
+          <select id="select-ano">
+            <option value="todos">Todas</option>
+          </select>
+        </div>
+
+        <div class="filtro-adversario-container">
+          <label for="select-adversario">Adversários:</label>
+          <select id="select-adversario">
+            <option value="todos">Todos</option>
+          </select>
+        </div>
+
+      </div>
+
+      <header class="competicoes-bar">
+        <div class="comp-box cearense">
+          <img class="comp-trophy" src="img/campeonatos/camp-cearense.png">
+          <span class="comp-text">CAMPEONATO CEARENSE</span>
+        </div>
+        <div class="comp-box nordeste">
+          <img class="comp-trophy"src="img/campeonatos/camp-nordeste.png">
+          <span class="comp-text">COPA DO NORDESTE</span>
+        </div>
+        <div class="comp-box brasil">
+          <img class="comp-trophy" src="img/campeonatos/camp-brasil.png">
+          <span class="comp-text">COPA DO BRASIL</span>
+        </div>
+        <div class="comp-box sulamericana">
+          <img class="comp-trophy" src="img/campeonatos/camp-sulamericana.png">
+          <span class="comp-text">COPA SULAMERICANA</span>
+        </div>
+        <div class="comp-box libertadores">
+          <img class="comp-trophy" src="img/campeonatos/camp-libertadores.png">
+          <span class="comp-text">COPA LIBERTADORES<br>DA AMÉRICA</span>
+        </div>
+        <div class="comp-box brasileiro-A">
+          <img class="comp-trophy" src="img/campeonatos/camp-brasileiro-A.png">
+          <span class="comp-text">BRASILEIRÃO<br>SERIE A</span>
+        </div>
+        <div class="comp-box brasileiro-B">
+          <img class="comp-trophy" src="img/campeonatos/camp-brasileiro-B.png">
+          <span class="comp-text">BRASILEIRÃO SERIE B</span>
+        </div>
+      </header>
+    </div>
+
+    <section class="stats-wrapper">
+
+      <div class="desempenho-container">
+
+        <div class="secao-heading">
+          <span class="heading-dot"></span>
+          <span class="heading-texto">Desempenho</span>
+        </div>
+
+        <div class="stats-overview-row">
+          <div class="matches-summary-col">
+            <div class="total-matches-label" id="total-jogos">0 Partidas</div>
+            <div class="circles-cluster">
+              <div class="stat-circle circle-vitorias">
+                <span class="label">vitórias</span>
+                <span class="count" id="count-vitorias">0</span>
+              </div>
+              <div class="stat-circle circle-empates">
+                <span class="label">empates</span>
+                <span class="count" id="count-empates">0</span>
+              </div>
+              <div class="stat-circle circle-derrotas">
+                <span class="label">derrotas</span>
+                <span class="count" id="count-derrotas">0</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="goals-summary-col">
+            <div class="goal-rectangle goal-marcados">
+              <span class="goal-header">gols marcados</span>
+              <span class="goal-value" id="total-gols-marcados">0</span>
+            </div>
+            <div class="goal-rectangle goal-sofridos">
+              <span class="goal-header">gols sofridos</span>
+              <span class="goal-value" id="total-gols-sofridos">0</span>
+            </div>
+            <div class="goal-rectangle goal-saldo">
+              <span class="goal-header">saldo de gols</span>
+              <span class="goal-value" id="total-saldo-gols">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="artilharia-container">
+        <div class="secao-heading">
+          <span class="heading-dot"></span>
+          <span class="heading-text">Artilharia</span>
+        </div>
+
+        <div class="artilharia-chart" id="chart-artilharia"></div>
+        <button id="btn-artilharia">Mostrar mais</button>
+      </div>
+    </section>
+
+    <section class="partidas">
+      <button id="btn-ordem" class="btn-ordem">
+        ↑ ANTIGAS PRIMEIRO
+      </button>
+
+      <main class="matches-list" id="lista-partidas">
+      </main>
+    </section>
+
+
+  </div>
+
+  <script src="script/javascript.js"></script>
+</body>
+
+</html>
