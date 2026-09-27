@@ -12,29 +12,57 @@
    CORES (VARIÁVEIS CSS)
 ========================================= */
 :root {
-  --background-color: #F8FAFC;/*Cor de fundo da pagina*/
+  --background-color: #F8FAFC;
+  /*Cor de fundo da pagina*/
   --font-texto: #1d3877;
 
-  --verde-vitoria: #5dd889; /*cores dos status das partidas*/
+  --verde-vitoria: #5dd889;
+  /*cores dos status das partidas*/
   --vermelho-derrota: #ff5252;
   --cinza-empate: #9e9e9e;
 
-  --cor-comp-cearense: #ceb777; /* Cor padrão campeonato cearense*/
-  --cor-comp-nordeste: #72a581; /* Cor padrão copa nordeste */
-  --cor-comp-brasil: #239443; /* Cor padrão copa do brasil */
-  --cor-comp-libertadores: #2e5999; /* Cor padrão copa libertadores */
+  --cor-comp-cearense: #ceb777;
+  /* Cor padrão campeonato cearense*/
+  --cor-comp-nordeste: #72a581;
+  /* Cor padrão copa nordeste */
+  --cor-comp-brasil: #239443;
+  /* Cor padrão copa do brasil */
+  --cor-comp-libertadores: #2e5999;
+  /* Cor padrão copa libertadores */
   --cor-comp-sulamericana: #7f97bb;
-  --cor-comp-brasileiro-A: #409df5; /* Cor padrão campeonato brasileiro serie A */
-  --cor-comp-brasileiro-B: #8adef8; /* Cor padrão campeonato brasileiro serie B */
+  --cor-comp-brasileiro-A: #409df5;
+  /* Cor padrão campeonato brasileiro serie A */
+  --cor-comp-brasileiro-B: #8adef8;
+  /* Cor padrão campeonato brasileiro serie B */
 }
 
-.comp-nordeste    { --cor-campeonato: var(--cor-comp-nordeste); }
-.comp-cearense    { --cor-campeonato: var(--cor-comp-cearense); }
-.comp-brasil      { --cor-campeonato: var(--cor-comp-brasil); }
-.comp-libertadores{ --cor-campeonato: var(--cor-comp-libertadores); }
-.comp-sulamericana{ --cor-campeonato: var(--cor-comp-sulamericana);}
-.comp-brasileiro-A  { --cor-campeonato: var(--cor-comp-brasileiro-A); }
-.comp-brasileiro-B  { --cor-campeonato: var(--cor-comp-brasileiro-B); }
+.comp-nordeste {
+  --cor-campeonato: var(--cor-comp-nordeste);
+}
+
+.comp-cearense {
+  --cor-campeonato: var(--cor-comp-cearense);
+}
+
+.comp-brasil {
+  --cor-campeonato: var(--cor-comp-brasil);
+}
+
+.comp-libertadores {
+  --cor-campeonato: var(--cor-comp-libertadores);
+}
+
+.comp-sulamericana {
+  --cor-campeonato: var(--cor-comp-sulamericana);
+}
+
+.comp-brasileiro-A {
+  --cor-campeonato: var(--cor-comp-brasileiro-A);
+}
+
+.comp-brasileiro-B {
+  --cor-campeonato: var(--cor-comp-brasileiro-B);
+}
 
 body {
   background-color: var(--background-color);
@@ -109,7 +137,8 @@ body {
 }
 
 .filtro-ano-container select:focus {
-  border-color: #e4b020; /* Destaque dourado ao focar */
+  border-color: #e4b020;
+  /* Destaque dourado ao focar */
   box-shadow: 0 0 0 2px rgba(228, 176, 32, 0.25);
 }
 
@@ -199,13 +228,33 @@ body {
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.30);
 }
 
-.comp-box.cearense    { background-color: var(--cor-comp-cearense); }
-.comp-box.nordeste    { background-color: var(--cor-comp-nordeste); }
-.comp-box.brasil      { background-color: var(--cor-comp-brasil); }
-.comp-box.libertadores  { background-color: var(--cor-comp-libertadores); }
-.comp-box.sulamericana  {background-color: var(--cor-comp-sulamericana);}
-.comp-box.brasileiro-A  { background-color: var(--cor-comp-brasileiro-A); }
-.comp-box.brasileiro-B { background-color: var(--cor-comp-brasileiro-B);}
+.comp-box.cearense {
+  background-color: var(--cor-comp-cearense);
+}
+
+.comp-box.nordeste {
+  background-color: var(--cor-comp-nordeste);
+}
+
+.comp-box.brasil {
+  background-color: var(--cor-comp-brasil);
+}
+
+.comp-box.libertadores {
+  background-color: var(--cor-comp-libertadores);
+}
+
+.comp-box.sulamericana {
+  background-color: var(--cor-comp-sulamericana);
+}
+
+.comp-box.brasileiro-A {
+  background-color: var(--cor-comp-brasileiro-A);
+}
+
+.comp-box.brasileiro-B {
+  background-color: var(--cor-comp-brasileiro-B);
+}
 
 .comp-text {
   color: #ffffff;
@@ -286,11 +335,13 @@ body {
 }
 
 .status-pill.status-derrota {
-  background-color: var(--vermelho-derrota); /* Vermelho para derrota */
+  background-color: var(--vermelho-derrota);
+  /* Vermelho para derrota */
 }
 
 .status-pill.status-empate {
-  background-color: var(--cinza-empate); /* Cinza para empate */
+  background-color: var(--cinza-empate);
+  /* Cinza para empate */
 }
 
 /* Container do Jogo com a Moldura da Cor do Campeonato */
@@ -298,7 +349,8 @@ body {
   flex-grow: 1;
   background-color: #ffffff;
   border: 4px solid var(--cor-campeonato);
-  border-left: none; /* A data já faz o lado esquerdo */
+  border-left: none;
+  /* A data já faz o lado esquerdo */
   display: flex;
   position: relative;
 }
@@ -335,9 +387,11 @@ body {
   font-size: 16px;
   font-weight: 700;
   flex-shrink: 0;
-  margin-top: 16px; /* Desce para dar espaço à barra superior */
+  margin-top: 16px;
+  /* Desce para dar espaço à barra superior */
   padding-top: 10px;
-  height: calc(100% - 16px); /* Ajusta a altura para preencher o restante do card */
+  height: calc(100% - 16px);
+  /* Ajusta a altura para preencher o restante do card */
 }
 
 .date-day {
@@ -356,7 +410,8 @@ body {
   flex-grow: 1;
   margin-top: 20px;
   display: grid;
-  grid-template-columns: 160px 50px 1fr 50px; /* Venue | Escudo Casa | Confronto | Escudo Fora */
+  grid-template-columns: 160px 50px 1fr 50px;
+  /* Venue | Escudo Casa | Confronto | Escudo Fora */
   align-items: center;
   padding: 0 15px;
   gap: 10px;
@@ -366,7 +421,9 @@ body {
 .venue-box {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
+  align-self: start;
+  padding-top: 5px;
   padding-left: 10px;
   width: 145px;
   overflow: hidden;
@@ -393,6 +450,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: end;
+  align-self: start;
   padding-right: 0%;
   position: relative;
 }
@@ -479,69 +537,75 @@ body {
   text-align: left;
   padding-left: 15px;
 }
+
 /*gol contras */
 .gol-contra {
-    color: #9b2424;
+  color: #9b2424;
 }
+
 /* area placar penalidades */
 .penaltis-result {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3px 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background-color: var(--cor-campeonato);
-    gap: 10px;
-    margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--cor-campeonato);
+  gap: 10px;
+  margin-top: 5px;
 }
 
 .pen-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
 }
 
 .pen-label {
-    font-size: 8px;
-    color: #ffffff;
+  font-size: 8px;
+  color: #ffffff;
 }
 
 .pen-score {
-    font-size: 10px;
-    color: #ffffff;
+  font-size: 10px;
+  color: #ffffff;
 }
 
 .penaltis-cobrancas {
-    display: flex;
-    gap: 5px;
-    align-items: center;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 }
 
 .pen-bolinha {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .pen-gol {
-    background-color: #4ade80;
+  background-color: #4ade80;
 }
 
 .pen-erro {
-    background-color: #ef4444;
+  background-color: #ef4444;
 }
 
 /* 6. Escudos em Posições Estratégicas */
 .crest-casa,
 .crest-fora {
-  position: static; /* Remove o absolute fixo */
+  position: static;
+  /* Remove o absolute fixo */
   height: 55px;
   max-width: 60px;
   object-fit: contain;
   margin: auto;
+
+  align-self: start;
+  margin-top: 5px;
 }
 
 /* =========================================
@@ -557,7 +621,7 @@ body {
   width: 100%;
 }
 
-.desempenho-container{
+.desempenho-container {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -662,7 +726,8 @@ body {
 .circle-empates {
   background-color: #4e8ae9;
   margin-left: -12px;
-  margin-top: 25px; /* Recuo para baixo como no mockup */
+  margin-top: 25px;
+  /* Recuo para baixo como no mockup */
   z-index: 3;
 }
 
@@ -675,7 +740,8 @@ body {
 /* --- 2. Bloco Duplo de Gols --- */
 .goals-summary-col {
   display: flex;
-  width: 360px; /* Largura fixa ideal para o trio de gols */
+  width: 360px;
+  /* Largura fixa ideal para o trio de gols */
   height: 95px;
   box-shadow: 0 4px 10px rgba(29, 56, 119, 0.10);
   border-radius: 6px;
@@ -693,9 +759,17 @@ body {
   color: #ffffff;
 }
 
-.goal-marcados   { background-color: #5ea8ff; }
-.goal-sofridos { background-color: #ff5f5f; }
-.goal-saldo   { background-color: #78e68a; }
+.goal-marcados {
+  background-color: #5ea8ff;
+}
+
+.goal-sofridos {
+  background-color: #ff5f5f;
+}
+
+.goal-saldo {
+  background-color: #78e68a;
+}
 
 .goal-header {
   font-size: 10px;

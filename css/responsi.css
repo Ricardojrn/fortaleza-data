@@ -25,11 +25,12 @@
     .comp-box {
         min-height: 95px;
     }
-
 }
 
-/* -------- CELULAR -------- */
-@media (max-width: 500px) {
+/* =========================================
+            CELULAR / TABLET
+   =========================================*/
+@media (max-width: 800px) {
 
     body {
         padding: 15px 8px;
@@ -68,9 +69,31 @@
         font-size: 12px;
     }
 
-    /* Barra de competições */
+    /* -------- BARRA DE COMPETIÇÕES -------- */
     .competicoes-bar {
-        gap: 8px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 12px;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        padding: 4px 2px 10px;
+
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .competicoes-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .comp-box {
+        flex: 0 0 130px;
+        min-width: 115px;
+        min-height: 90px;
+
+        scroll-snap-align: start;
     }
 
     .comp-trophy {
@@ -94,6 +117,83 @@
     .artilharia-container {
         width: 100%;
         max-width: 100%;
+    }
+
+    /* Cards de desempenho */
+    .stats-overview-row {
+        gap: 25px;
+        width: 100%;
+    }
+
+    /* Gráfico de artilharia */
+    .artilharia-container {
+        overflow: hidden;
+    }
+
+    #chart-artilharia {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #axis-artilharia {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    /* Cards das partidas */
+    /* Conteúdo dos cards de partidas */
+    .card-content {
+        grid-template-columns: 80px 40px 1fr 40px;
+        padding: 0 8px;
+        gap: 5px;
+    }
+
+    .partidas {
+        width: 100%;
+    }
+
+    .match-card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .match-teams {
+        gap: 8px;
+    }
+
+    .venue-box {
+        width: 80px;
+        padding-left: 4px;
+    }
+
+    .venue-name {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+
+    .venue-city {
+        font-size: 9px;
+        margin-top: 4px;
+    }
+
+    .t-name {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        line-height: 1.2;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .t-score {
+        font-size: 15px;
+    }
+
+    .crest-casa,
+    .crest-fora {
+        height: 40px;
+        max-width: 45px;
     }
 }
 
