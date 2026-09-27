@@ -1,0 +1,132 @@
+/* =========================================
+   RESPONSIVIDADE
+   ========================================= */
+
+/* -------- TELAS MÉDIAS -------- */
+@media (max-width: 1100px) {
+
+    /* Filtros */
+    .filtros-container {
+        gap: 20px;
+    }
+
+    .filtro-ano-container,
+    .filtro-adversario-container {
+        width: auto;
+    }
+
+    /* Barra de competições */
+    .competicoes-bar {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+    }
+
+    .comp-box {
+        min-height: 95px;
+    }
+
+}
+
+/* -------- CELULAR -------- */
+@media (max-width: 500px) {
+
+    body {
+        padding: 15px 8px;
+    }
+
+    .page-wrapper {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    /* Filtros */
+    .filtros-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .filtro-ano-container,
+    .filtro-adversario-container {
+        width: 100%;
+    }
+
+    .filtro-ano-container,
+    .filtro-adversario-container {
+        gap: 6px;
+    }
+
+    .filtro-ano-container label,
+    .filtro-adversario-container label {
+        font-size: 10px;
+    }
+
+    .filtro-ano-container select,
+    .filtro-adversario-container select {
+        height: 34px;
+        font-size: 12px;
+    }
+
+    /* Barra de competições */
+    .competicoes-bar {
+        gap: 8px;
+    }
+
+    .comp-trophy {
+        max-width: 40px;
+        max-height: 52px;
+    }
+
+    .comp-text {
+        font-size: 8px;
+        letter-spacing: 0.5px;
+    }
+
+    /* Estatísticas */
+    .stats-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .desempenho-container,
+    .artilharia-container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* =========================================
+   CARROSSEL DE COMPETIÇÕES
+   ========================================= */
+
+@media (max-width: 700px) {
+
+    .competicoes-bar {
+        display: flex;
+        justify-content: flex-start;
+        gap: 12px;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        padding: 4px 2px 10px;
+
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .competicoes-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .comp-box {
+        flex: 0 0 130px;
+        min-width: 115px;
+        min-height: 90px;
+
+        scroll-snap-align: start;
+    }
+
+}
