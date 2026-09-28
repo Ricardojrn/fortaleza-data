@@ -1117,6 +1117,28 @@
                 "Neris 88'",
                 "(GC) - Heron 34'"
             ]
+        },
+        {
+            "id": 202658,
+            "competicao": "brasileiro-B",
+            "fase": "RODADA 30",
+            "data": "27/09",
+            "estadio": "Castelão",
+            "cidade": "Fortaleza, CE",
+            "timeCasa": "FORTALEZA",
+            "escudoCasa": "img/fortaleza.png",
+            "golsCasa": 2,
+            "timeFora": "ATHLETIC",
+            "escudoFora": "img/athleticMG.png",
+            "golsFora": 2,
+            "autoresGolsCasa": [
+                "Lucas Sasha 50'",
+                "Maílton 45' +8 (P)"
+            ],
+            "autoresGolsFora": [
+                "Enzo 60'",
+                "Kauan Lindes 42'"
+            ]
         }
     ]
 }
